@@ -1,16 +1,21 @@
-body, html {
+body html {
   height: 100%;
+  padding: 0;
 }
 
 .herodiv {
-  background-image: url("abstract.jpg");
-  /* Set a specific height */
-  height: 50%;
-  /* Position and center the image to scale nicely on all screens */
+  background-image: url(abstract.jpg);
+  height: 500px;
+  width: 100vw;
+  padding: 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+li {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=output.css.map */

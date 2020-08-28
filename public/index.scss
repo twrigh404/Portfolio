@@ -1,13 +1,26 @@
-body, html {
+body html {
   height: 100%;
+  padding: 0;
 }
 
+.mynav {
+
+}
 
 .herodiv {
-  background-image: url(AbstractSVG.svg);
-  height: 50%;
+  background-image: url(abstract.jpg);
+  height: 500px;
+  width: 100vw;
+
+  padding: 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   }
+
+
+
+li {
+  margin-right: 10px;
+}
