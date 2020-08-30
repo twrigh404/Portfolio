@@ -14,8 +14,15 @@ body html {
   position: relative;
 }
 
-li {
-  margin-right: 10px;
+.navul {
+  list-style: none;
+}
+
+.abtsection {
+  background-color: red;
+  height: 500px;
+  width: 100vw;
+  padding: 0;
 }
 
 /*# sourceMappingURL=output.css.map */

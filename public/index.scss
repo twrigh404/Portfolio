@@ -3,24 +3,24 @@ body html {
   padding: 0;
 }
 
-.mynav {
-
-}
-
 .herodiv {
   background-image: url(abstract.jpg);
   height: 500px;
   width: 100vw;
-
   padding: 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  }
 
+}
+.navul {
+  list-style: none;
+}
+.abtsection {
+  background-color: red;
+  height: 500px;
+  width: 100vw;
+  padding: 0;
 
-
-li {
-  margin-right: 10px;
 }
