@@ -18,7 +18,26 @@ body html {
   list-style: none;
 }
 
-.abtsection {
+.Main {
+  border: 1px solid black;
+  width: 350px;
+  height: 350px;
+}
+.Main .initials {
+  background-color: red;
+  display: block;
+  font-family: "Nunito", sans-serif;
+}
+.Main .header {
+  display: block;
+}
+.Main p {
+  background-color: red;
+  display: block;
+  text-align: center;
+}
+
+#abtsection {
   background-color: red;
   height: 500px;
   width: 100vw;

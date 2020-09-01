@@ -14,13 +14,39 @@ body html {
   position: relative;
 
 }
+
 .navul {
   list-style: none;
 }
-.abtsection {
+
+.Main {
+  border: 1px solid black;
+  width: 350px;
+  height: 350px;
+  .initials {
+    background-color: red;
+    display: block;
+    font-family: 'Nunito', sans-serif;
+
+  }
+  .header {
+    display: block;
+  }
+  p {
+    background-color: red;
+    display: block;
+    text-align: center;
+  }
+}
+
+
+
+#abtsection {
   background-color: red;
   height: 500px;
   width: 100vw;
   padding: 0;
+}
+#abtsection2 {
 
 }
