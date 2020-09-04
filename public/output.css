@@ -5,7 +5,7 @@ body html {
 
 .herodiv {
   background-image: url(abstract.jpg);
-  height: 500px;
+  height: 700px;
   width: 100vw;
   padding: 0;
   background-position: center;
@@ -16,6 +16,9 @@ body html {
 
 .navul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  right: -50px;
 }
 
 .Main {
@@ -24,7 +27,7 @@ body html {
   height: 350px;
 }
 .Main .initials {
-  background-color: red;
+  background-color: blue;
   display: block;
   font-family: "Nunito", sans-serif;
 }
@@ -32,16 +35,21 @@ body html {
   display: block;
 }
 .Main p {
-  background-color: red;
+  background-color: blue;
   display: block;
   text-align: center;
 }
 
 #abtsection {
-  background-color: red;
-  height: 500px;
+  background-color: blue;
+  height: 700px;
   width: 100vw;
   padding: 0;
+}
+
+#pagepiling {
+  height: 700px;
+  width: 100vw;
 }
 
 /*# sourceMappingURL=output.css.map */
